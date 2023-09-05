@@ -3,8 +3,6 @@ import Topbar from "../../components/topbar/Topbar";
 import Leftbar from "../../components/leftbar/Leftbar";
 import "./ptmacs.css";
 import { Col, Row } from "reactstrap";
-import hero1 from "../../assets/images/p-therapy.jpg";
-import heroPic from "../../assets/images/DSC03272-2.webp";
 
 export default function PtMacs() {
   return (
