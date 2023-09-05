@@ -1,0 +1,126 @@
+.homeContainer {
+  display: flex;
+  width: 100%;
+}
+
+.feed {
+  flex: 6;
+}
+
+.feedWrapper {
+  padding: 10px 25px 25px 25px;
+}
+
+.container {
+  max-width: 2400px;
+}
+
+.hero-textA {
+  display: flex;
+  color: #000;
+}
+
+.row-2 {
+  margin-bottom: 2rem;
+}
+
+.hr {
+  border: 1px solid #999;
+  width: 100%;
+  margin: 1rem auto 1rem auto;
+}
+
+.hrEnd {
+  border: 2px solid #999;
+  width: 100%;
+  margin: 2rem auto 2rem auto;
+}
+
+.text {
+  margin: 0rem auto 2rem auto;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.text-2A {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgba(5, 5, 94, 0.859);
+  margin: 0 auto 0.5rem auto;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.heroAbt {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+}
+
+.text-pA {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5rem;
+  color: #000;
+  margin: 1rem auto 0 auto;
+  border-radius: 5px;
+}
+
+.text-h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.img-box {
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.-img {
+  width: auto;
+  height: 175px;
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.linkAb {
+  font-size: 1rem;
+  padding-left: 10px;
+  color: blue;
+}
+
+.linkAb:hover {
+  color: blue;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link-1 {
+  font-size: 1rem;
+  padding-left: 10px;
+  color: #ccc;
+}
+
+.h3-text {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.background-about {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1rem 1rem 2rem 1rem;
+  border-radius: 2px;
+  border-bottom: 2px solid #999;
+}

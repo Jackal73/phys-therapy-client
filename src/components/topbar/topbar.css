@@ -1,0 +1,119 @@
+.topbarContainer {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  justify-content: center;
+  top: 0;
+  z-index: 999;
+  background: rgb(39, 51, 89, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.topbarLeft {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-left: 20px;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+
+.menu {
+  margin-bottom: 0;
+
+  display: flex;
+}
+
+.wide-0 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__item a {
+  text-decoration: none !important;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-right: 1.5rem;
+}
+
+.nav__item a:hover {
+  color: blue;
+  font-weight: 500;
+}
+
+.nav__item a.active {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+.mobile__menu {
+  font-size: 1.3rem;
+  color: blue;
+  display: none;
+}
+
+.sticky__header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background: rgba(255, 255, 255, 0.7);
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 8px -3px #ddd;
+  z-index: 999;
+}
+
+li.nav__item::marker {
+  content: "";
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.topbarImg {
+  border-radius: 50%;
+
+  border: thin blue solid;
+
+  cursor: pointer;
+}

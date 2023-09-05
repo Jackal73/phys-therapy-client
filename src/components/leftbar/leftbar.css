@@ -1,0 +1,160 @@
+.leftbar {
+  flex: 1.25;
+  height: calc(100vh - 79px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 78px;
+}
+
+.affiliates {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  /* background-color: #f1f1f1; */
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.school {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  /* margin-left: 10px; */
+  padding-right: 10px;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+}
+
+ul {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.li-phone {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #555;
+  padding-left: 0.7rem;
+}
+
+.link:hover,
+.link-1:hover,
+a:hover {
+  font-weight: 600;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.leftbarWrapper {
+  padding: 20px;
+  background: rgba(39, 51, 89, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.leftbarList {
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  list-style: none;
+  text-align: center;
+}
+
+.leftbarListItem {
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.leftbarListItemText {
+  cursor: pointer;
+  padding: 4px 0 2px 2px !important;
+  border-left: none !important;
+  border-right: none !important;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  background: none !important;
+  font-size: 16px;
+}
+.leftbarListItemText:hover {
+  color: #fff;
+}
+
+.leftbarIcon {
+  margin-right: 15px;
+  color: #fff;
+}
+
+.leftbarIcon:hover {
+  color: #fff !important;
+}
+
+.leftbarButton {
+  border: none;
+  padding: 6px 12px;
+  margin-left: 25px;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid #000;
+  border-top: 1px solid #fff;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  background: none !important;
+  color: #000;
+}
+
+.leftbarButton:hover {
+  outline: none;
+  color: #fff;
+}
+
+.leftbarButton:focus {
+  outline: none;
+  border-bottom: 1px solid #fff;
+  border-top: 2px solid #000;
+  color: #fff;
+}
+
+.leftbarHr {
+  margin: 20px 0;
+}
+
+.leftbarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.leftbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
