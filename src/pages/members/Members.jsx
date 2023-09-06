@@ -14,15 +14,14 @@ export default function Members() {
           <div className="feedWrapper">
             <Row>
               <Col>
-                <h1 className="text">
-                Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)
-                </h1>
+                <h1 className="text">Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)</h1>
               </Col>
             </Row>
             <div className="background-about">
               <Row className="hero-title">
                 <h2 className="h2-text">Member Page</h2>
               </Row>
+              {/* =================================================================================== */}
               <Row className="two-col-member">
                 <Col className="left-col-member">
                   {/* =========================================== */}

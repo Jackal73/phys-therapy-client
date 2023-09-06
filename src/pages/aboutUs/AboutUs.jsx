@@ -49,11 +49,11 @@ export default function AboutUs() {
               <Row className="row-2">
                 <h1 className="text-2A">Focus</h1>
                 <p className="">
-                  Here, you will find a central source of information about the many Physical Therapy programs in Texas,
-                  especially with respect to clinical education. It includes a list of members and access to the Texas
-                  Consortium Clinical Education Certification Course. This course has two parts: Part I: online and
-                  accessible through this website; Part II: a face-face class to be done after Part I is completed
-                  online.
+                  Here, you will find a central source of information about the many Physical Therapy Assistant programs
+                  in Texas, especially with respect to clinical education. It includes a list of members and access to
+                  the Texas Consortium Clinical Education Certification Course. This course has two parts: Part I:
+                  online and accessible through this website; Part II: a face-face class to be done after Part I is
+                  completed online.
                 </p>
               </Row>
 
@@ -63,7 +63,7 @@ export default function AboutUs() {
                 <h1 className="text-2A">Incorporation</h1>
                 <p className="">
                   The Texas Alliance of Physical Therapist Assistant Educators (TAPTAE) is the result of a collaborative
-                  arrangement among the physical therapy programs in the state.
+                  arrangement among the physical therapy assistant programs in the state.
                 </p>
               </Row>
 
@@ -71,7 +71,7 @@ export default function AboutUs() {
 
               <Row className="row-2">
                 <h1 className="text-2A">Members</h1>
-                <a href="#!" className="linkAb">
+                <a href="/members" className="linkAb">
                   Click here for Consortium member and contact information.
                 </a>
               </Row>

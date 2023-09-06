@@ -32,8 +32,8 @@ export default function Home() {
             <Row>
               <Col className="hero-text">
                 <p className="text-p p-3">
-                  Welcome to the Texas Consortium for Physical Therapy Clinical Education website. Our primary purpose
-                  is to promote excellence in Physical Therapy Clinical Education.
+                  Welcome to the Texas Alliance of Physical Therapist Assistant Educators (TAPTAE) website. Our primary
+                  purpose is to promote excellence in Physical Therapy Assistant Clinical Education.
                   <br />{" "}
                   <a href="#!" className="link-1">
                     Click here for more information
