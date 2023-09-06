@@ -16,10 +16,7 @@ export default function Home() {
           <div className="feedWrapper">
             <Row>
               <Col className="hero-text">
-                <h1 className="text">
-                  Texas Consortium for Physical Therapy
-                  <br /> Clinical Education, Inc.
-                </h1>
+                <h1 className="text">Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)</h1>
               </Col>
             </Row>
             <Row className="row-2">
@@ -27,7 +24,7 @@ export default function Home() {
                 <h1 className="text-2">
                   <i>
                     Enhancing Academic and Clinical Partnership
-                    <br /> in PT Education
+                    <br /> in PTA Education
                   </i>
                 </h1>
               </Col>
@@ -48,11 +45,11 @@ export default function Home() {
             <Col lg="4" className="hero-text img-box">
               <img className="-img1" src={hero1} alt="" />
               <h3 className="text-h3">
-                <span className="h3-text">PT MACS and CPI Information</span>
+                <span className="h3-text">PTA MACS and CPI Information</span>
                 <br />
                 <div className="ptmacLink">
                   <a href="#!" className="link">
-                    PT MACS - Information
+                    PTA MACS - Information
                   </a>
                 </div>
                 <br />

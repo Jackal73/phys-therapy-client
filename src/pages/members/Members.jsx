@@ -15,8 +15,7 @@ export default function Members() {
             <Row>
               <Col>
                 <h1 className="text">
-                  Texas Consortium for Physical Therapy
-                  <br /> Clinical Education, Inc.
+                Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)
                 </h1>
               </Col>
             </Row>

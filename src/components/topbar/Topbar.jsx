@@ -22,8 +22,8 @@ const nav__links = [
     display: "Members",
   },
   {
-    path: "/ptmacs",
-    display: "PT MACS",
+    path: "/ptamacs",
+    display: "PTA MACS",
   },
   {
     path: "/courses",

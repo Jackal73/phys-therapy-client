@@ -17,10 +17,7 @@ export default function AboutUs() {
           <div className="feedWrapper">
             <Row>
               <Col className="hero-text">
-                <h1 className="text">
-                  Texas Consortium for Physical Therapy
-                  <br /> Clinical Education, Inc.
-                </h1>
+                <h1 className="text">Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)</h1>
               </Col>
             </Row>
 
@@ -34,7 +31,7 @@ export default function AboutUs() {
               <Row>
                 <Col className="hero-textA ">
                   <h1 className="text-2A">
-                    Enhancing Academic and Clinical Partnership in PT Education
+                    Enhancing Academic and Clinical Partnership in PTA Education
                     <p className="text-pA">
                       The primary purpose of this group is to coordinate all aspects of physical therapy clinical
                       education. The Consortium functions with the financial support from the participating
@@ -65,7 +62,7 @@ export default function AboutUs() {
               <Row className="row-2">
                 <h1 className="text-2A">Incorporation</h1>
                 <p className="">
-                  The Texas Consortium for Physical Therapy Clinical Education Inc. is the result of a collaborative
+                  The Texas Alliance of Physical Therapist Assistant Educators (TAPTAE) is the result of a collaborative
                   arrangement among the physical therapy programs in the state.
                 </p>
               </Row>

@@ -18,10 +18,7 @@ export default function Resources() {
           <div className="feedWrapper">
             <Row>
               <Col className="hero-text">
-                <h1 className="text">
-                  Texas Consortium for Physical Therapy
-                  <br /> Clinical Education, Inc.
-                </h1>
+                <h1 className="text">Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)</h1>
               </Col>
             </Row>
 
@@ -70,7 +67,7 @@ export default function Resources() {
                       </li>
                       <li>
                         <a href="#!" className="link">
-                          PT MACS Information
+                          PTA MACS Information
                         </a>
                       </li>
                       <li>

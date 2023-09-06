@@ -5,7 +5,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Resources from "./pages/resources/Resources";
 import Members from "./pages/members/Members";
-import PtMacs from "./pages/ptmacs/PtMacs";
+import PtaMacs from "./pages/ptamacs/PtaMacs";
 import Courses from "./pages/courses/Courses";
 
 function App() {
@@ -28,8 +28,8 @@ function App() {
         <Route exact path="/members">
           <Members />
         </Route>
-        <Route exact path="/ptmacs">
-          <PtMacs />
+        <Route exact path="/ptamacs">
+          <PtaMacs />
         </Route>
         <Route exact path="/courses">
           <Courses />
